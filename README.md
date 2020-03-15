@@ -16,7 +16,7 @@
 
 ## Step 5
 
-`npm install react-route-dom --save`
+`npm install react-router-dom --save`
 
 
 ## Step 6
