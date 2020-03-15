@@ -1,32 +1,32 @@
 ## Step 1
 
-### `composer update`
+ `composer update`
 
 ## Step 2
 
-### `composer require laravel/ui`
+ `composer require laravel/ui`
 
 ## Step 3
 
-### `php artisan ui react`
+ `php artisan ui react`
 
 ## Step 4
 
-### `npm install`
+`npm install`
 
 ## Step 5
 
-### `npm install react-route-dom --save`
+`npm install react-route-dom --save`
 
 
 ## Step 6
 
-### `npm run watch`
+ `npm run watch`
 
 ## Step 7
 
-### `php artisan migrate`
+ `php artisan migrate`
 
 ## Step 8
 
-### `php artisan serve`
+ `php artisan serve`
