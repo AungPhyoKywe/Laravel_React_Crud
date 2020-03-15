@@ -1,20 +1,32 @@
 ## Step 1
 
-### composer update
+### `composer update`
 
 ## Step 2
 
-### npm install
-
+### `composer require laravel/ui`
 
 ## Step 3
 
-### npm run watch
+### `php artisan ui react`
 
 ## Step 4
 
-### php artisan migrate
+### `npm install`
 
 ## Step 5
 
-### php artisan serve
+### `npm install react-route-dom --save`
+
+
+## Step 6
+
+### `npm run watch`
+
+## Step 7
+
+### `php artisan migrate`
+
+## Step 8
+
+### `php artisan serve`
