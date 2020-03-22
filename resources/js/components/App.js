@@ -12,13 +12,17 @@ class App extends Component {
     render () {
         return (
           <BrowserRouter>
-            <div>
-              <Header />
-              <Switch>
-                <Route exact path='/' component={Display} />
-                <Route path='/create' component={Create} />
-                <Route path='/edit/:id' component={Edit} />
-              </Switch>
+            <div className="container">
+                <div className="card">
+                    <div className="card-body shadow-lg p-3 mb-5 bg-white rounded border border-secondary">
+                        <Header />
+                        <Switch>
+                            <Route exact path='/' component={Display} />
+                            <Route path='/create' component={Create} />
+                            <Route path='/edit/:id' component={Edit} />
+                        </Switch>
+                    </div>
+                </div>
             </div>
           </BrowserRouter>
         )
