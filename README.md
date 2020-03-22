@@ -30,3 +30,6 @@
 
 `php artisan serve`
 
+## image 
+
+<img src="https://github.com/AungPhyoKywe/Laravel_ReactJs_Crud/blob/master/Screenshot%20from%202020-03-22%2018-31-56.png">
