@@ -68,7 +68,7 @@ class Display extends Component {
                                             <td>{response.name}</td>
                                             <td>{response.description}</td>
                                             <td>
-                                                <button className="btn-sm  btn-success"><Link to={"/edit/"+response.id}>edit</Link></button>
+                                                <Link to={"/edit/"+response.id}><button className="btn-sm  btn-success">edit</button></Link>
                                                 <button  className="btn-sm  btn-danger" onClick={() => this.handleDelete(response.id)}>delete</button>
 
                                             </td>
