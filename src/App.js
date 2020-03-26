@@ -67,7 +67,7 @@ export default class App extends React.Component
 
     return(
 
-      <div className=" p-3 mb-2 bg-info container">
+      <div className="shadow p-3 mb-5 bg-white rounded  container border border-primary">
 
             <nav className=" rounded navbar navbar-expand-lg navbar-dark bg-dark">
               <a className="navbar-brand" href="#">World Corona Updated : {this.state.day} </a>
