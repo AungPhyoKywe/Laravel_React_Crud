@@ -67,10 +67,10 @@ export default class App extends React.Component
 
     return(
 
-      <div className="shadow p-3 mb-5 bg-white rounded  container border border-primary">
+      <div style={{backgroundColor : '#242582'}}className="container">
 
             <nav className=" rounded navbar navbar-expand-lg navbar-dark bg-dark">
-              <a className="navbar-brand" href="#">World Corona Updated : {this.state.day} </a>
+              <a className="navbar-brand" href="#">နောက်ဆုံးကိုရိုနာဗိုင်ရပ် : {this.state.day} </a>
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
@@ -83,10 +83,10 @@ export default class App extends React.Component
             </nav><br/><br/>
 
                 <div className=" shadow p-3 mb-5 bg-white rounded card">
-                    <div className="card-header">Total Country</div>
+                    <div className="card-header"><h2>စုစုပေါင်းကူးစက်ပြန်နှံ့နေသောနိုင်ငံများ</h2></div>
                       <div className="card bg-light text-black card-body">
                       
-                      <center><h2>{this.state.results}</h2></center>
+                      <center><h1>{this.state.results}</h1></center>
                       </div> 
                 </div>
             
@@ -105,40 +105,40 @@ export default class App extends React.Component
             <div className="row">
                 <div className="col-3">
                   <div className=" shadow p-3 mb-5 bg-white rounded card">
-                    <div className="card-header">Confirmed</div>
+                    <div className="card-header">ကူစက်ခံရသူ</div>
                     <div className="card bg-warning text-white card-body">
                       
-                      {this.state.total}
+                      <h2>{this.state.total}</h2>
                     </div> 
                     </div>
                 </div>
 
                 <div className="col-3">
                   <div className="shadow p-3 mb-5 bg-white rounded card">
-                  <div className="card-header">Recovered</div>
+                  <div className="card-header">ပြန်လဲသက်သာလာသူ</div>
                     <div className="card bg-success text-white card-body ">
                       
-                      {this.state.recovered}
+                      <h2>{this.state.recovered}</h2>
                     </div> 
                     </div>
                 </div>
 
                 <div className="col-3">
                   <div className=" shadow p-3 mb-5 bg-white rounded card">
-                  <div className="card-header">New</div>
+                  <div className="card-header">အသစ်ထက်တွေ့မှု</div>
                     <div className="card bg-primary text-white card-body ">
                       
-                      {this.state.new}
+                      <h2>{this.state.new}</h2>
                     </div> 
                     </div>
                 </div>
 
                 <div className="col-3">
                   <div className=" shadow p-3 mb-5 bg-white rounded card">
-                  <div className="card-header">Deaths</div>
+                  <div className="card-header">သေဆုံးသူ</div>
                     <div className="card bg-danger text-white card-body">
                       
-                      {this.state.deaths}
+                      <h2>{this.state.deaths}</h2>
                     </div> 
                     </div>
                 </div>
