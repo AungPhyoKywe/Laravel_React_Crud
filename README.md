@@ -11,6 +11,8 @@
 ## Step 3
 
 `npm install -g react-scripts`
+## Step 4
 
+`npm install`
 ### `npm start`
 
