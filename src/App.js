@@ -69,18 +69,7 @@ export default class App extends React.Component
 
       <div style={{backgroundColor : '#242582'}}className="container">
 
-<<<<<<< HEAD
-=======
-            <nav className=" rounded navbar navbar-expand-lg navbar-dark bg-dark">
-              <a className="navbar-brand" href="#">နောက်ဆုံးကိုရိုနာဗိုင်ရပ် : {this.state.day} </a>
-              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="collapse navbar-collapse" id="navbarText">
-                <ul className="navbar-nav mr-auto">
-                  
-                </ul>
->>>>>>> 992b30c7bcd178526cb2a5b4cf137df12c28bec4
+
             
 
                 <div className=" shadow p-3 mb-5 bg-white rounded card">
@@ -101,7 +90,7 @@ export default class App extends React.Component
             }
              
             </select>
-            
+            <br></br>
             
             <div className="row">
                 <div className="col-3">
