@@ -48,7 +48,7 @@ export default class App extends React.Component
       const date = res.data.response[0].day
       const cases = res.data.response[0].cases
       const de= res.data.response[0].deaths
-      console.log(date);
+      console.log(res.data.response[0]);
       this.setState({ 
         new :cases.new,
         total:cases.total,
@@ -69,18 +69,7 @@ export default class App extends React.Component
 
       <div className="shadow p-3 mb-5 bg-white rounded  container border border-primary">
 
-            <nav className=" rounded navbar navbar-expand-lg navbar-dark bg-dark">
-              <a className="navbar-brand" href="#">World Corona Updated : {this.state.day} </a>
-              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="collapse navbar-collapse" id="navbarText">
-                <ul className="navbar-nav mr-auto">
-                  
-                </ul>
             
-              </div>
-            </nav><br/><br/>
 
                 <div className=" shadow p-3 mb-5 bg-white rounded card">
                     <div className="card-header">Total Country</div>
@@ -100,7 +89,7 @@ export default class App extends React.Component
             }
              
             </select>
-            <br/><br/>
+            
             
             <div className="row">
                 <div className="col-3">
@@ -144,11 +133,8 @@ export default class App extends React.Component
                 </div>
                 
 
-            </div><br/><br/><br/>
-            <marquee><i>develop by apk</i></marquee>
-            <br/><br/>
-          
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            </div>
+            
 
       </div>
        
